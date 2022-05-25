@@ -1,0 +1,16 @@
+# Field:  D4
+# RA,Dec: 333.5541357 -17.2018741
+# X,Y:    16181.620  20998.781
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.U.fits[16161:16201,20978:21018]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.G.fits[16161:16201,20978:21018]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.R.fits[16161:16201,20978:21018]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.I.fits[16161:16201,20978:21018]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.Z.fits[16161:16201,20978:21018]'
+#  U:        0.000
+#  G:        0.000
+#  R:       18.140
+#  I:        0.000
+# I2:        0.000
+#  Z:        0.000
+#MJD          Magnitude     Error   Expnum Ext           X           Y     IQ Fil  Individual image cutout URL
+54413.3172481    18.140     0.014   955173   8    1349.366      20.733  0.789   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955173p.fits[8][1285:1412,1:84]'

@@ -1,0 +1,44 @@
+# Field:  D3
+# RA,Dec: 215.6366761 +52.1554435
+# X,Y:    1020.588  664.888
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.U.fits[1000:1040,644:684]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.G.fits[1000:1040,644:684]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.R.fits[1000:1040,644:684]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.I.fits[1000:1040,644:684]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.Z.fits[1000:1040,644:684]'
+#  U:       23.358
+#  G:       22.183
+#  R:       20.904
+#  I:       20.070
+# I2:       20.071
+#  Z:       19.619
+#MJD          Magnitude     Error   Expnum Ext           X           Y     IQ Fil  Individual image cutout URL
+53882.3916894    24.212     0.158   850068  28     246.864      21.575  0.803   U  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850068p.fits[28][182:309,1:85]'
+53888.3165844    22.504     0.047   850576  28     245.667      30.514  0.804   U  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850576p.fits[28][181:308,1:94]'
+53879.3083701    22.177     0.029   849692  28     277.057      29.982  0.924   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/849692p.fits[28][213:340,1:93]'
+53883.3892451    22.108     0.025   850184  28     236.399      28.204  0.836   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850184p.fits[28][172:299,1:92]'
+53888.4064281    22.222     0.027   850593  28     238.336      49.933  0.738   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850593p.fits[28][174:301,1:113]'
+53892.3770161    22.189     0.041   851064  28     241.589      27.734  0.573   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/851064p.fits[28][177:304,1:91]'
+53879.2896491    20.907     0.046   849687  28     277.166      31.974  0.779   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/849687p.fits[28][213:340,1:95]'
+53883.3705561    20.918     0.053   850179  28     236.347      30.193  0.819   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850179p.fits[28][172:299,1:94]'
+53888.3877511    20.900     0.045   850588  28     239.005      52.272  0.740   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850588p.fits[28][175:302,1:116]'
+53892.3581341    20.856     0.039   851059  28     241.890      29.566  0.653   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/851059p.fits[28][177:304,1:93]'
+53112.5248163    20.086     0.092   741894  28     234.300      62.749  0.996   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/741894p.fits[28][170:297,1:126]'
+53563.3171113    20.066     0.058   802818  28     292.996      52.390  1.052   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/802818p.fits[28][228:355,1:116]'
+53879.2670373    20.074     0.048   849682  28     275.888      30.716  0.737   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/849682p.fits[28][211:338,1:94]'
+53883.3309923    20.085     0.039   850172  28     234.228      28.589  0.662   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850172p.fits[28][170:297,1:92]'
+53888.3647553    20.060     0.048   850583  28     238.173      51.734  0.731   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850583p.fits[28][174:301,1:115]'
+53892.3183403    20.062     0.019   851052  28     239.627      27.902  0.481   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/851052p.fits[28][175:302,1:91]'
+53910.4069533    20.078     0.032   853184  28     441.035     156.908  0.606   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/853184p.fits[28][377:504,92:219]'
+54151.5904753    20.039     0.066   896679  28     367.796     176.879  1.276   I  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/896679p.fits[28][303:430,112:239]'
+54861.5413333    20.060     0.062  1056751  28     392.098      47.994  0.927  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056751p.fits[28][328:455,1:111]'
+54861.5650423    20.072     0.059  1056756  28     395.197      47.426  0.884  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056756p.fits[28][331:458,1:111]'
+54861.5982153    20.070     0.055  1056763  28     395.887      49.635  0.717  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056763p.fits[28][331:458,1:113]'
+54861.6124873    20.072     0.056  1056766  28     397.099      50.502  0.806  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056766p.fits[28][333:460,1:114]'
+54861.6267023    20.071     0.057  1056769  28     397.817      50.202  0.843  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056769p.fits[28][333:460,1:114]'
+54861.6503883    20.064     0.075  1056774  28     398.908      52.498  1.153  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1056774p.fits[28][334:461,1:116]'
+54864.6033983    20.083     0.062  1057447  28     255.909      57.521  0.678  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1057447p.fits[28][191:318,1:121]'
+54864.6270583    20.077     0.069  1057452  28     256.579      58.553  0.660  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1057452p.fits[28][192:319,1:122]'
+54864.6507203    20.063     0.087  1057457  28     258.724      59.672  0.725  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1057457p.fits[28][194:321,1:123]'
+53883.4109103    19.575     0.078   850189  28     240.933      32.644  0.757   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/850189p.fits[28][176:303,1:96]'
+53892.3988633    19.663     0.043   851069  28     245.817      31.675  0.474   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/851069p.fits[28][181:308,1:95]'

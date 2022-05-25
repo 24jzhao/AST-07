@@ -1,0 +1,15 @@
+# Field:  D3
+# RA,Dec: 214.4015472 +53.2027959
+# X,Y:    15564.336  20910.359
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.U.fits[15544:15584,20890:20930]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.G.fits[15544:15584,20890:20930]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.R.fits[15544:15584,20890:20930]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.I.fits[15544:15584,20890:20930]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.Z.fits[15544:15584,20890:20930]'
+#  U:        0.000
+#  G:        0.000
+#  R:        0.000
+#  I:        0.000
+# I2:        0.000
+#  Z:        0.000
+#MJD          Magnitude     Error   Expnum Ext           X           Y     IQ Fil  Individual image cutout URL

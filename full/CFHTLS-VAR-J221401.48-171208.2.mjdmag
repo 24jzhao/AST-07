@@ -1,0 +1,33 @@
+# Field:  D4
+# RA,Dec: 333.7750732 -17.2036470
+# X,Y:    12095.864  20968.961
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.U.fits[12075:12115,20948:20988]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.G.fits[12075:12115,20948:20988]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.R.fits[12075:12115,20948:20988]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.I.fits[12075:12115,20948:20988]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D4.IQ.Z.fits[12075:12115,20948:20988]'
+#  U:        0.000
+#  G:       20.007
+#  R:       19.525
+#  I:        0.000
+# I2:       19.240
+#  Z:       19.297
+#MJD          Magnitude     Error   Expnum Ext           X           Y     IQ Fil  Individual image cutout URL
+54407.3111981    20.002     0.017   954922   6    1229.859      49.081  0.668   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/954922p.fits[6][1165:1292,1:113]'
+54414.2032471    20.018     0.016   955361   6    1234.184      33.240  0.658   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955361p.fits[6][1170:1297,1:97]'
+54417.2729251    20.012     0.026   955868   6    1225.541      45.109  0.958   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955868p.fits[6][1161:1288,1:109]'
+54445.2612821    19.986     0.030   960394   6    1353.626      23.814  1.068   G  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/960394p.fits[6][1289:1416,1:87]'
+54407.2944531    19.529     0.018   954917   6    1229.210      51.351  0.645   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/954917p.fits[6][1165:1292,1:115]'
+54413.3172481    19.521     0.023   955173   6    1215.350      53.376  0.789   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955173p.fits[6][1151:1278,1:117]'
+54417.2561681    19.532     0.022   955863   6    1225.798      46.726  0.808   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955863p.fits[6][1161:1288,1:110]'
+54419.2638771    19.518     0.035   956238   6    1230.296      36.311  0.935   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/956238p.fits[6][1166:1293,1:100]'
+54419.2679061    19.536     0.026   956239   6    1230.231      36.380  0.838   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/956239p.fits[6][1166:1293,1:100]'
+54419.2719401    19.517     0.030   956240   6    1229.780      36.557  0.916   R  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/956240p.fits[6][1165:1292,1:100]'
+54407.2600243    19.237     0.050   954910   6    1232.116      49.744  0.600  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/954910p.fits[6][1168:1295,1:113]'
+54413.2476613    19.242     0.051   955158   6    1220.536      50.781  0.867  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955158p.fits[6][1156:1283,1:114]'
+54417.2217563    19.241     0.048   955856   6    1229.812      46.414  0.656  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955856p.fits[6][1165:1292,1:110]'
+54419.2294553    19.240     0.049   956231   6    1232.700      34.514  0.763  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/956231p.fits[6][1168:1295,1:98]'
+54445.2245483    19.228     0.050   960386   6    1351.514      24.779  0.869  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/960386p.fits[6][1287:1414,1:88]'
+54709.3693493    19.316     0.051  1021795   6    1335.292      41.872  0.767  I2  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/1021795p.fits[6][1271:1398,1:105]'
+54413.2723963    19.311     0.065   955163   6    1217.573      52.480  0.815   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955163p.fits[6][1153:1280,1:116]'
+54417.2975343    19.282     0.064   955873   6    1222.866      48.077  0.841   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/955873p.fits[6][1158:1285,1:112]'

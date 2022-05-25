@@ -1,0 +1,19 @@
+# Field:  D3
+# RA,Dec: 214.4568057 +53.2018232
+# X,Y:    14923.583  20887.689
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.U.fits[14903:14943,20867:20907]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.G.fits[14903:14943,20867:20907]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.R.fits[14903:14943,20867:20907]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.I.fits[14903:14943,20867:20907]'
+#Stack cutout URL: 'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHTSG/D3.IQ.Z.fits[14903:14943,20867:20907]'
+#  U:        0.000
+#  G:        0.000
+#  R:        0.000
+#  I:        0.000
+# I2:        0.000
+#  Z:       20.024
+#MJD          Magnitude     Error   Expnum Ext           X           Y     IQ Fil  Individual image cutout URL
+53169.4482363    19.734     0.199   750210   7     550.837      30.674  1.028   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/750210p.fits[7][486:613,1:94]'
+53182.3751753    20.084     0.145   751330   7     546.826      32.006  0.764   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/751330p.fits[7][482:609,1:96]'
+54589.4052153    20.061     0.069   986941   7     515.033      43.773  0.587   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/986941p.fits[7][451:578,1:107]'
+54594.4978233    19.988     0.135   987598   7     529.961      34.878  0.874   Z  'http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/data/pub/CFHT/987598p.fits[7][465:592,1:98]'
