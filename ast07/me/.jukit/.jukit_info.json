@@ -1,0 +1,1 @@
+{"cmd":"def error_histogram(all_percentages): for i in range(len(all_percentages)): plt.figure() plt.hist(all_percentages[i]) plt.show()","cmd_opts":"","import_complete":1,"terminal":"vimterm"}

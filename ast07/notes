@@ -1,0 +1,11 @@
+Confirmed RR Lyrae:
+CFHTLS-VAR-J100002.68+023140.5
+CFHTLS-VAR-J221527.94-180359.8
+
+TODO:
+Examine D1 Xtreme Variable candidated via plotting measured RMS in ugriz bands as bold symbols against data points
+o Sigma value 3 or 4 might be good (pos. using X2GOF + normcdf()?)
+
+
+
+ME = 10E(~RMS_observed)
