@@ -1,1 +1,1 @@
-{"cmd":"from astropy.io import fits","cmd_opts":"","import_complete":1,"terminal":"vimterm"}
+{"cmd":"def load_one_timeseries(file_name):","cmd_opts":"","import_complete":1,"terminal":"vimterm"}

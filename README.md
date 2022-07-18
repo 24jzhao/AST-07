@@ -22,21 +22,21 @@ The [setup.sh](https://github.com/24jzhao/AST-07/blob/ethan/setup.sh) file shoul
 ---
 _Root_ (you are here)
 
-├───[AST-07_CODE.ipynb](https://github.com/24jzhao/AST-07/blob/ethan/AST-07_CODE.ipynb): cloned from [master](https://github.com/24jzhao/AST-07/tree/main)  
+├───[.old/AST-07_CODE.ipynb](https://github.com/24jzhao/AST-07/blob/ethan/.old/AST-07_CODE.ipynb): cloned from [master](https://github.com/24jzhao/AST-07/tree/main)  
 │  
-├───[AST-07_CODE.py](https://github.com/24jzhao/AST-07/blob/ethan/AST-07_CODE.py): Python3,9 rip of the notebook.  
+├───[.old/AST-07_CODE.py](https://github.com/24jzhao/AST-07/blob/ethan/.old/AST-07_CODE.py): Python3,9 rip of the notebook.  
 │  
 ├───[setup.sh](https://github.com/24jzhao/AST-07/blob/ethan/setup.sh): Quick script I wrote to recreate my environment.  _Should_ work.  
 │  
 ├───[ast07/](https://github.com/24jzhao/AST-07/tree/ethan/ast07): files that belong in ~/ast07, which is supposed to be the parent directory of the project. I'll get around to fixing it.  
 │  
-├───────[all_percentages.csv](https://github.com/24jzhao/AST-07/blob/ethan/ast07/all_percentages.csv): CSV file with RMS error pcts  
+├───────[all_percentages.csv](https://github.com/24jzhao/AST-07/blob/ethan/ast07/all_percentages.csv): CSV files with RMS error pcts  
 │  
 ├───────[notes](https://github.com/24jzhao/AST-07/blob/ethan/ast07/notes):Minimal notes for task  
 │  
 ├───────[me/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/me): Current working directory  
 │  
-├──────────────[me.ipynp](https://github.com/24jzhao/AST-07/blob/ethan/ast07/me/me.ipynp): iPython notebook to create histograms (*current project*)  
+├──────────────[Untitled.ipynp](https://github.com/24jzhao/AST-07/blob/ethan/ast07/me/Untitled.ipynp): iPython notebook to create histograms (*current project*)  
 │  
 └───────[full/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/full): star data
-<!-- can something be worse than /pol/?  Yes, it's called /b/ -->
+<!-- can something be worse than /pol/?  /b/ is! -->
