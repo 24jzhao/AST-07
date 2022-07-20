@@ -6,6 +6,17 @@ TODO:
 Examine D1 Xtreme Variable candidated via plotting measured RMS in ugriz bands as bold symbols against data points
 o Sigma value 3 or 4 might be good (pos. using X2GOF + normcdf()?)
 
+ZI not observed, scratch it out
+
+Apply log(2) log(3) log(5) lines to star graph(?)
+-Below Log(2) not cared about
+-Log(2)~Log(3) is maginal
+-Log(3)~Log(5) is intermediate [sic]
+-Log(5)+ is Xtreme
+
+3-digit code to identify UGR value w/ prop
+UGR, 0,1,2,3 w/ number id
+
 
 
 ME = 10E(~RMS_observed)

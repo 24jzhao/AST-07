@@ -1,1 +1,1 @@
-{"cmd":"\ndef error_histogram(all_percentages): \n    for i in range(len(all_percentages)):\n        plt.figure()\n        plt.hist(all_percentages[i])\n        plt.show()\n        plt.savefig('test.png')","cmd_opts":" --cell_id=7DblBTbOJd -s","import_complete":1,"terminal":"vimterm"}
+{"cmd":"# sorting algo!\nall_categ_sort = [[w,x,y,z] for w,x,y,z in all_categ_vals if not (x==0 or y == 0 or z == 0)]\n","cmd_opts":" --cell_id=U0Jxupz0WM -s","import_complete":1,"terminal":"vimterm"}

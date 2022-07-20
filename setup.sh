@@ -1,6 +1,7 @@
-#!/bin/env bash
+#!/bin/sh
+
 mv ast07 ../
-mkdir ../ast07/AST-07
-mv ./* ../ast07/AST-07
-echo "Setup Complete"
-rm -rf $(pwd) && exit 1
+mv ../AST-07 ../ast07
+
+echo "Setup Complete!"
+# rm -rf $(pwd) && exit 1
