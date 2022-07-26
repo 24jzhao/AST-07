@@ -14,7 +14,7 @@ Current Editing Environment incase something goes awry:
 ## Setup & Directory info
 ---
 ### Setup:
-*Setup isn't needed anymore!* (You should still run it to get best results)
+*Setup isn't needed anymore!* Just run the stuff in ast07/ and you are golden
 
 The [setup.sh](https://github.com/24jzhao/AST-07/blob/ethan/setup.sh) file should take care of everything for you. 
 

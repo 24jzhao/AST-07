@@ -113,11 +113,38 @@ def lomb_scargle_list (object_list):
 print('lsa')
 max_over_mean_threes,object_list = lomb_scargle_list([i for i in range(397)])
 print('lsa done')
-
+print(object_list_saved)
+max_over_mean_threes_saved = max_over_mean_threes
+object_list_saved = object_list
 #|%%--%%| <xSkcEvJdom|ZKXubZNHmX>
-
+#print(max_over_mean_threes)
 narrowed_objects = []
-for i in range(len(max_over_mean)):
-    if max_over_mean[i] >= 0.20:
-        narrowed_objects.append(object_list[i],max_over_mean[i])
+for i in range(len(max_over_mean_threes_saved)):
+    if max_over_mean_threes_saved[i] >= 20:
+        narrowed_objects.append([object_list_saved[i],max_over_mean_threes_saved[i]])
+
+
+len(narrowed_objects)
+
+#|%%--%%| <ZKXubZNHmX|5hvgRVGBTX>
+import csv
+#dfx = pd.DataFrame(narrowed_objects)
+with open('blahblah', 'w', newline='') as blah:
+    wr = csv.writer(blah, quoting=csv.QUOTE_ALL)
+    wr.writerow(narrowed_objects)
+
+
+#|%%--%%| <5hvgRVGBTX|GcNKluNsHb>
+df_x = pd.DataFrame(narrowed_objects)
+import base64
+import pandas as pd
+from IPython.display import HTML
+def create_download_link( df, title = "Download CSV file", filename = "data.csv"):
+    csv = df.to_csv()
+    b64 = base64.b64encode(csv.encode())
+    payload = b64.decode()
+    html = '<a download="{filename}" href="data:text/csv;base64,{payload}" target="_blank">{title}</a>'
+    html = html.format(payload=payload,title=title,filename=filename)
+    return HTML(html)
+create_download_link(df_x)
 
