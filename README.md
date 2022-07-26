@@ -30,7 +30,7 @@ _Root_ (you are here)
 │  
 ├───────[lsa/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/lsa): Sort an insane amount of stuff and make a .csv out of it 
 │  
-├───────[me/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/me): What you're looking for 
+├───────[me/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/me): What you're looking for  
 │  
 ├──────────────[Untitled.ipynp](https://github.com/24jzhao/AST-07/blob/ethan/ast07/me/Untitled.ipynp): iPython notebook that I am working on (*current project*)  
 │  
