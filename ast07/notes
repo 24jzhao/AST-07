@@ -20,3 +20,16 @@ UGR, 0,1,2,3 w/ number id
 
 
 ME = 10E(~RMS_observed)
+
+
+run (t,msgs,...)
+and4 400,000
+- Check w/ 1k first 
+
+get updated csv from chris w/ vals
+
+get array of objects of max P_multi compared to average of 20?
+
+
+max(P_multi/np.mean(P_multi) -- compare max vs mean, make it greater than 20
+

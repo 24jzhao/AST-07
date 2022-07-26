@@ -1,0 +1,10 @@
+def lomb_scargle_list (object_list):
+max_over_mean = []
+for cur_object in object_list:
+t, mags, dy, filts = data_format(cur_object)
+periods = np.linspace(0.1, 1.0, 100000)
+LS_multi = periodic.LombScargleMultiband(Nterms_base=1, Nterms_band=0)#initiate structure variable
+LS_multi.fit(t, mags, dy, filts)#input our data
+P_multi = LS_multi.periodogram(periods)#function where input is periods
+max_over_mean.append(np.max(P_multi)/np.mean(P_multi))
+return max_over_mean 
