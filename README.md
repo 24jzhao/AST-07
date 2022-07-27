@@ -28,7 +28,7 @@ _Root_ (you are here)
 │  
 ├───[ast07/](https://github.com/24jzhao/AST-07/tree/ethan/ast07): project files    
 │  
-├───────[lsa/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/lsa): Sort an insane amount of stuff and make a .csv out of it 
+├───────[lsa/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/lsa): Sort an insane amount of stuff and make a .csv out of it  
 │  
 ├───────[me/](https://github.com/24jzhao/AST-07/tree/ethan/ast07/me): What you're looking for  
 │  
