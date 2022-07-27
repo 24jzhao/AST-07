@@ -120,12 +120,20 @@ for i in range(len(max_over_mean_threes_saved)):
     if max_over_mean_threes[i] >= 20:
         narrowed_objects.append([object_list[i],max_over_mean_threes[i]])
 
+#get the correct object ids, refer to cell 4
+lsa = []  
+  for i in range(len(all_categ_sort)):
+      for j in range(len(narrowed_objects)):
+          if i == lsa[j][0]:
+              lsa.append([all_categ_sort[i][0],narrowed_objects[j][1]])
+
+
 #|%%--%%| <ZKXubZNHmX|5hvgRVGBTX>
 import csv
-with open('blahblah', 'w', newline='') as blah:
-    wr = csv.writer(blah, quoting=csv.QUOTE_ALL)
-    wr.writerow(narrowed_objects)
+with open('lsa.csv', 'w', newline='') as lsa_csv:
+    wr = csv.writer(lsa_csv, quoting=csv.QUOTE_ALL)
+    wr.writerow(lsa) #change to narrowed_objects to get a list in reference to the threes index 
 
-
+#Open the csv in vim, and type :%s/\],"[/\r/g followed by Enter and delete the extra stuff at the end to make it useable
 #|%%--%%| <5hvgRVGBTX|GcNKluNsHb>
 
