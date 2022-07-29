@@ -1,4 +1,4 @@
-
+#ALWAYS run this first
 import pandas as pd
 #from matplotlib import colors
 import matplotlib.pyplot as plt
@@ -13,7 +13,7 @@ print('Done')
 
 # Basically a wrapper for a .csv containing a bunch of values
 
-df = pd.read_csv('../all_percentages_rand.csv') 
+df = pd.read_csv('../csv/all_percentages_rand.csv') 
 #NOTE: IN VIM $PWD is ~/, requires workaround:
 #df = pd.read_csv('ast07/AST-07/ast07/all_percentages_rand.csv')
 all_percentages = df.values.tolist()
@@ -104,22 +104,34 @@ for i in rint:
     plt.show()
             
 
-# |%%--%%| <V2EjT7iSJx|U0Jxupz0WM>
+#|%%--%%| <V2EjT7iSJx|amdMbMjLMy>
 
-df = pd.read_csv('../all_categ_vals.csv')
-#df.drop('Unnamed: 0',inplace=True,axis=1) # Don't cut off object numbers
+"""Utilities"""
+
+# |%%--%%| <amdMbMjLMy|U0Jxupz0WM>
+# sorting algo!
+df = pd.read_csv('../csv/all_categ_vals.csv')
 all_categ_vals = df.values.tolist()
 
-# sorting algo!
-# NOTE: keeps object number as item 0, chop off 'w' if you don't want object no.
+# NOTE: keeps object number as item 0, chop off 'w' if you don't want the object no.
 all_categ_sort = [[w,x,y,z] for w,x,y,z in all_categ_vals if (x==3 and y==3 and z ==3)]
 
+#|%%--%%| <U0Jxupz0WM|QQOiNQz89J>
+#Convert bad lsa.csv to good lsa1.csv
+#Run the all_categ_sort cell before running this
 
-# |%%--%%| <U0Jxupz0WM|BnCi5as2ao>
+df_1 = pd.read_csv('lsa.csv')
+lsa = df_1.values.tolist()
 
-#for i in range(len(all_categ_sort)):
-#    print(all_categ_sort[i][0])
+lsv1 = []
+for i in range(len(all_categ_sort)):
+    for j in range(len(lsa)):
+        if i == lsa[j][0]:
+            #print(all_categ_sort[i])
+            lsv1.append([all_categ_sort[i][0],lsa[j][1]])
 
-# |%%--%%| <BnCi5as2ao|pSqLIzg7zg>
+pd.DataFrame(lsv1, columns=['obj',' max_over_mean']).to_csv("lsva.csv", index=False)
+print('Remember to cut off the first line!')
+# |%%--%%| <QQOiNQz89J|pSqLIzg7zg>
 
 

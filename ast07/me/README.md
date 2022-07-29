@@ -1,1 +1,1 @@
-Most of these files use an outdated CSV directory and may complain the file doesn't exist.  In any case, prepend the csv filename with '../csv/' (without quotes)
+Histograms and some useful utilities to automate some conversion processes.  See Untitled.ipynb and/or Untitled.py for more details.
