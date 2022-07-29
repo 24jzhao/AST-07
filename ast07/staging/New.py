@@ -21,14 +21,14 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LinearRegression
 from numpy.random import default_rng
-import locutils
-#import astfunc
-#obj=4
+#import locutils -- works
+#import astfunc -- works
+obj=4 #3s index no. 
 rc('font', family='serif')
 rc('mathtext', fontset='cm')
 full_file_list = os.listdir('../full') # creates a Python list containing the file paths for every object's time series
 #|%%--%%| <yckObVB2wW|CxZx0ewWbN>
-#A fucking disaster...
+#A ******* disaster...
 
 df = pd.read_csv('../csv/file_list.csv')
 file_list = df.values.tolist()
@@ -291,8 +291,8 @@ def folded_light_curve(obj, period, pdf_name):
 #|%%--%%| <TLuSYeyvdV|yv6qLpbnLI>
     #0.6 seconds ideal step
     # i/p_true + n where n is an integer all reciprocated is the beat frequency
-for i in lsa:
-        obj = lsa[i]
-        print(lsa[i])
-#        folded_light_curve(obj, periods[index], 'out/'+str(obj)+'.pdf')
+#for i in lsa:
+#        obj = lsa[i]
+#        print(lsa[i])
+folded_light_curve(obj, periods[index], 'out/'+str(obj)+'.pdf')
         print('out/'+str(obj)+'.pdf generated.')
