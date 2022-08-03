@@ -30,14 +30,13 @@ import a12lib
 csvdir = '../csv/' 
 
 #specify objects to look at here!
-#obj0 = [8149,3938,3467,2831,10319,13728,14931,14146,9412,21707,22252]
-obj0 = [503]
+#obj0 = [18444, 25189, 21552, 12175, 24169, 149, 19875, 24483, 10753, 13369, 13729, 10753, 13369]
 
+obj0 = [3933,15615,467,503,1041] #emergency revision of LSA PDFS
 rc('font', family='sans')
 rc('mathtext', fontset='cm')
 
 #full_file_list = os.listdir('../full') #Unneeded since file_list succeeds it
-
 
 
 df = pd.read_csv(csvdir+'file_list.csv')
@@ -55,7 +54,6 @@ for i in range(len(valslist)):
     for j in range(len(obj0)):
         if obj0[j] == valslist[i][1]:
             fnames.append(i)
-
 #Much cleaner way of using lsa, use when naming issue is solved
 
 #Cross-index the object number to enable running multiple objects in one go
@@ -86,7 +84,6 @@ for i in range(len(all_mags)):
             all_mjd[i][j][z] = float(all_mjd[i][j][z])
             all_magerrs[i][j][z] = float(all_magerrs[i][j][z])
 ## }}}
-
 periods = np.linspace(0.1, 1.0, 1000000) # This defines the search range of your period, you can specify it at your will. These are in days.
 print('[done] periods')
 
@@ -96,9 +93,11 @@ for a in range(len(obj0)):
     av1 = obj0[a] #object from user-input list
     an1 = fnames[a] #index of the object
     obj = an1 #make the code work
-    for i in range(len(file_list)): #match global index w/ threes_index (i think?)
-        if file_list[i][0] == valslist[int(an1)][0]:
-            oname = (i,file_list[i]) #temp list w/ index and name (for display)
+#    for i in range(len(file_list)): #match global index w/ threes_index (i think?)
+#        if file_list[i][0] == valslist[int(an1)][0]:
+    for i in range(len(valslist)):
+        if av1 == valslist[i][1]:
+            oname = (i,valslist[i][0]) #temp list w/ index and name (for display)
 #The bulk of it
     t, mags, dy, filts = a12lib.data_format(obj, all_mags, all_mjd, all_magerrs)
     print('[done] data_format')
@@ -117,8 +116,8 @@ for a in range(len(obj0)):
     #0.6 seconds ideal step
     # i/p_true + n where n is an integer all reciprocated is the beat frequency
 
-    a12lib.folded_light_curve(obj, periods[index], 'out/num/'+str(av1)+'.pdf', oname, av1, all_mjd, all_mags)
-    a12lib.folded_light_curve(obj, periods[index], 'out/nam/'+str(oname[1])+'.pdf', oname, av1, all_mjd, all_mags)
+    a12lib.folded_light_curve(obj, periods[index], 'out/num/gen/'+str(av1)+'.pdf', oname, av1, all_mjd, all_mags)
+    a12lib.folded_light_curve(obj, periods[index], 'out/nam/gen/'+str(oname[1])+'.pdf', oname, av1, all_mjd, all_mags)
     print(str(oname[1])+'.pdf generated.')
     print(str(av1)+'.pdf generated.')
 # Create file w/ indicies and object names
