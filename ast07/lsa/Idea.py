@@ -2,6 +2,8 @@
 #Idea.py: the work of a madman who wants to create 158 graphs at 4:38 AM
 #Batch generate pdfs of light curves (~15min/curve)
 #A ******* disaster... but with finesse!
+#TODO: Add periodogram support
+
 import numpy as np
 import math
 import pandas as pd
@@ -35,10 +37,6 @@ csvdir = '../csv/'
 obj0 = [3933,15615,467,503,1041] #emergency revision of LSA PDFS
 rc('font', family='sans')
 rc('mathtext', fontset='cm')
-
-#full_file_list = os.listdir('../full') #Unneeded since file_list succeeds it
-
-
 df = pd.read_csv(csvdir+'file_list.csv')
 file_list = df.values.tolist() #file list
 #df_l = pd.read_csv(csvdir+'lsa.csv') #Get objects to iterate over
@@ -46,22 +44,18 @@ file_list = df.values.tolist() #file list
 df_nd = pd.read_csv(csvdir+'all_threes_objects_filenames.csv')
 df_nd = df_nd.drop(columns='Unnamed: 0')
 valslist = df_nd.values.tolist()
+oname = [] # object info (put it here to make it more readable)
+
+####
 
 #messy way to get fnames but it'll do
 fnames = [] #get display name
-oname = [] # object info (put it here to make it more readable)
-for i in range(len(valslist)):
-    for j in range(len(obj0)):
+#NOTE: to make this work using the full dataset, simply get a map of object indexs and names and replace valslist
+for j in range(len(obj0)):
+    for i in range(len(valslist)):
         if obj0[j] == valslist[i][1]:
             fnames.append(i)
-#Much cleaner way of using lsa, use when naming issue is solved
-
-#Cross-index the object number to enable running multiple objects in one go
-#NOTE: lsa[obj][0] mapped the threes_object_indexes index to the global index list, you can substitute it with the global index value (obj0) if you're not using threes_object_indexes
-
-#fnames = (file_list[int(lsa[obj][0])]) #get list of object indicies 
-
-## {{{ NOT A GOOD WAY TO DO THIS - FIX!!
+## {{{ Onlyworks with three_object_indexes, but replacing 'em shouldn't hurt
 all_mags_narrow = pd.read_csv(csvdir+'all_mags_narrow.csv')#.values.tolist()
 all_mjd_narrow = pd.read_csv(csvdir+'all_mjd_narrow.csv')#.values.tolist()
 all_magerrs_narrow = pd.read_csv(csvdir+'all_magerrs_narrow.csv')#.values.tolist()
@@ -84,20 +78,22 @@ for i in range(len(all_mags)):
             all_mjd[i][j][z] = float(all_mjd[i][j][z])
             all_magerrs[i][j][z] = float(all_magerrs[i][j][z])
 ## }}}
+
+####
+
 periods = np.linspace(0.1, 1.0, 1000000) # This defines the search range of your period, you can specify it at your will. These are in days.
 print('[done] periods')
 
-#aval = 158 # control loop for testing via while
-#while aval < 158:
+####
+
 for a in range(len(obj0)):
     av1 = obj0[a] #object from user-input list
     an1 = fnames[a] #index of the object
     obj = an1 #make the code work
-#    for i in range(len(file_list)): #match global index w/ threes_index (i think?)
-#        if file_list[i][0] == valslist[int(an1)][0]:
     for i in range(len(valslist)):
         if av1 == valslist[i][1]:
-            oname = (i,valslist[i][0]) #temp list w/ index and name (for display)
+            oname = (i,valslist[i][0]) #temp list containing relative index and name (for display)
+#    break #uncomment this if testing something, DO NOT split cells
 #The bulk of it
     t, mags, dy, filts = a12lib.data_format(obj, all_mags, all_mjd, all_magerrs)
     print('[done] data_format')
@@ -115,14 +111,8 @@ for a in range(len(obj0)):
     print(periods[index])
     #0.6 seconds ideal step
     # i/p_true + n where n is an integer all reciprocated is the beat frequency
-
     a12lib.folded_light_curve(obj, periods[index], 'out/num/gen/'+str(av1)+'.pdf', oname, av1, all_mjd, all_mags)
     a12lib.folded_light_curve(obj, periods[index], 'out/nam/gen/'+str(oname[1])+'.pdf', oname, av1, all_mjd, all_mags)
     print(str(oname[1])+'.pdf generated.')
     print(str(av1)+'.pdf generated.')
-# Create file w/ indicies and object names
-#    out1.append(aval)
-#    outx.append([lsa[aval],lsa1[aval][0],file_list[lsa1[aval][0]]])
-#    aval = aval+1
-#pd.DataFrame(outx, columns=['3s_index','gen_index','name']).to_csv("outx.txt", index=False)
 print(oname)
